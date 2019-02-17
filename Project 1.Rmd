@@ -2,9 +2,7 @@
 title: "Assignement Project 1 Course 4"
 author: "Alexander"
 date: '17.02.2019'
-output:
-  md_document:
-    variant: markdown_github
+output: html
 ---
 
 ## Instrictons
@@ -135,7 +133,7 @@ Second Part (fillin in na with median) | 9354.23 | 10395
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
-1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
+1. Create a new factor variable in the dataset with two levels â€“ â€œweekdayâ€ and â€œweekendâ€ indicating whether a given date is a weekday or weekend day.
 
 ```{r}
 # Just recreating activityDT from scratch then making the new factor variable. (No need to, just want to be clear on what the entire process is.) 
